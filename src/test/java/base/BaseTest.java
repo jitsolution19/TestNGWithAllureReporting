@@ -13,7 +13,7 @@ import utilities.CaptureScreenshot;
 
 public class BaseTest {
 	public static WebDriver driver = null;
-	private String currentApplication = "kumari";
+	private String currentApplication = "littleStation";
 
 	@BeforeMethod
 	public void setup() {

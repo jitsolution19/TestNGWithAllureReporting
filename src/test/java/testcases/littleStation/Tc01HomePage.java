@@ -13,6 +13,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.TmsLink;
 import pages.littleStation.LittleStationHomePage;
+import utilities.CaptureScreenshot;
 
 public class Tc01HomePage extends BaseTest {
 
@@ -34,6 +35,6 @@ public class Tc01HomePage extends BaseTest {
 				.getText();
 		System.out.println(actualText);
 		Assert.assertEquals("Little Treasures, Big Smiles!", actualText);
-//		CaptureScreenshot.takescreenshot(driver, "font validation");
+		CaptureScreenshot.takescreenshot(driver, "font validation");
 	}
 }
