@@ -11,9 +11,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import io.qameta.allure.Allure;
-import littlestation.BaseTest;
 
-public class CaptureScreenshot extends BaseTest {
+public class CaptureScreenshot {
 
 	public static void takescreenshot(WebDriver driver, String screenshotName) {
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
